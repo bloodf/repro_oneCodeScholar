@@ -9,7 +9,7 @@ const config = {
   publicRuntimeConfig: {
     appKey: 'vsf2spcon',
     appVersion: Date.now(),
-    middlewareUrl:  `${platformENV}://${process.env.BASE_URL}/api/`
+    middlewareUrl:  `https://reproonecodescholar-production.up.railway.app/`
   },
   privateRuntimeConfig: {
     storeURL: process.env.SHOPIFY_DOMAIN,
