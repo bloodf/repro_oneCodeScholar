@@ -1,9 +1,3 @@
-[variables]
-NODE_ENV = 'production'
-
-[phases.setup]
-cmds = ['yarn install ci']
-
 [phases.build]
 cmds = ['yarn run build']
 
