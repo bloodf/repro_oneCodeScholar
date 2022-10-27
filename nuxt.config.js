@@ -2,9 +2,9 @@ require('isomorphic-fetch');
 import webpack from 'webpack';
 const platformENV = process.env.NODE_ENV !== 'production' ? 'http' : 'https'
 const config = {
-    server: {
-    host: "0.0.0.0",
+  server: {
     port: process.env.PORT || 3000,
+    host: '0.0.0.0'
   },
   publicRuntimeConfig: {
     appKey: 'vsf2spcon',
