@@ -2,4 +2,4 @@
 cmds = ['yarn run build']
 
 [start]
-cmd = 'yarn run start'
+cmd = 'node --max-old-space-size=4096 `which npm` start'
