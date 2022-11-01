@@ -3,13 +3,13 @@ import webpack from 'webpack';
 const platformENV = process.env.NODE_ENV !== 'production' ? 'http' : 'https'
 const config = {
   server: {
-    port: process.env.PORT || 3000,
+    port: process.env.APP_PORT || 3000,
     host: '0.0.0.0'
   },
   publicRuntimeConfig: {
     appKey: 'vsf2spcon',
     appVersion: Date.now(),
-    middlewareUrl:  `https:///walrus-app-tyes7.ondigitalocean.app/`
+    middlewareUrl:  `${platformENV}://${process.env.BASE_URL}/api/`
   },
   privateRuntimeConfig: {
     storeURL: process.env.SHOPIFY_DOMAIN,
