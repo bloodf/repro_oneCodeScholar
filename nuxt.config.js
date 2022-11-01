@@ -9,7 +9,7 @@ const config = {
   publicRuntimeConfig: {
     appKey: 'vsf2spcon',
     appVersion: Date.now(),
-    middlewareUrl:  `https://https://walrus-app-tyes7.ondigitalocean.app/`
+    middlewareUrl:  `https:///walrus-app-tyes7.ondigitalocean.app/`
   },
   privateRuntimeConfig: {
     storeURL: process.env.SHOPIFY_DOMAIN,
